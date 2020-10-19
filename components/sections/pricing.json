@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_pricings",
+  "info": {
+    "name": "Pricing",
+    "icon": "comments-dollar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "mainBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.main-banner"
+    },
+    "smallBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.small-banner"
+    }
+  }
+}

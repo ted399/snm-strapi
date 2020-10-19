@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "name": "Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "pageZone": {
+      "type": "dynamiczone",
+      "components": [
+        "sections.features",
+        "sections.projects",
+        "sections.header",
+        "sections.pricing"
+      ]
+    }
+  }
+}

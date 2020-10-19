@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_sections_headers",
+  "info": {
+    "name": "Header",
+    "icon": "brain"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "btnLink": {
+      "type": "string"
+    },
+    "btnText": {
+      "type": "string"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

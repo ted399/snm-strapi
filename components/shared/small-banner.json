@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_small_banners",
+  "info": {
+    "name": "smallBanner",
+    "icon": "cheese"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "btnLink": {
+      "type": "string"
+    },
+    "btnText": {
+      "type": "string"
+    }
+  }
+}

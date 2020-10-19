@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_projects",
+  "info": {
+    "name": "Projects",
+    "icon": "border-all"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Project": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.project"
+    }
+  }
+}

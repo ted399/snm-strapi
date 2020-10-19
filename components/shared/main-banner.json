@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_shared_main_banners",
+  "info": {
+    "name": "mainBanner",
+    "icon": "clone",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Price": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "List": {
+      "type": "richtext"
+    },
+    "btnLink": {
+      "type": "string"
+    },
+    "btnText": {
+      "type": "string"
+    }
+  }
+}

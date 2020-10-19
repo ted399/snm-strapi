@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_shared_lists",
+  "info": {
+    "name": "List",
+    "icon": "list-ul"
+  },
+  "options": {},
+  "attributes": {
+    "listItem": {
+      "type": "string"
+    }
+  }
+}

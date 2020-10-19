@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_features",
+  "info": {
+    "name": "Features",
+    "icon": "braille"
+  },
+  "options": {},
+  "attributes": {
+    "Headline": {
+      "type": "string"
+    },
+    "Feature": {
+      "type": "component",
+      "repeatable": true,
+      "component": "features.feature"
+    }
+  }
+}
