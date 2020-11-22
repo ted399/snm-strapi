@@ -2,7 +2,8 @@
   "collectionName": "components_features_features",
   "info": {
     "name": "Feature",
-    "icon": "ad"
+    "icon": "ad",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,6 +12,17 @@
     },
     "Description": {
       "type": "richtext"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
     }
   }
 }
